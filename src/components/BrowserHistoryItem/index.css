@@ -1,0 +1,67 @@
+.history-item-container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.used-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.time {
+  font-size: 24px;
+  font-weight: 600;
+  color: #64748b;
+  margin-left: 24px;
+  font-family: 'Roboto';
+}
+.img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 46px;
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  height: 40px;
+  width: 40px;
+  margin-left: 24px;
+  margin-right: 16px;
+}
+
+.heading {
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #475569;
+  font-family: 'Roboto';
+  align-self: flex-end;
+}
+.paragraph {
+  color: #64748b;
+  font-size: 16px;
+  margin-top: 0;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .title-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.delete-icon {
+  height: 32px;
+  width: 32px;
+  margin-right: 24px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
